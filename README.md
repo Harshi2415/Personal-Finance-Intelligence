@@ -446,7 +446,7 @@ Make sure the following are installed:
 ## 1. Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/Personal-Finance-Intelligence.git
+git clone https://github.com/Harshi2415/Personal-Finance-Intelligence.git
 ```
 
 Move into the project directory:
@@ -455,7 +455,7 @@ Move into the project directory:
 cd Personal-Finance-Intelligence
 ```
 
-> Replace `YOUR_USERNAME` with your GitHub username.
+> Replace `Harshi2415` with your GitHub username.
 
 ---
 
