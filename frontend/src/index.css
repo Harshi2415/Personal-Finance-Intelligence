@@ -1,0 +1,85 @@
+@import "tailwindcss";
+
+:root{
+  font-family: "Inter", sans-serif;
+
+  --color-primary: #1d4ed8;
+  --color-primary-dark: #1e3a8a;
+
+  --color-accent: #0f766e;
+  --color-accent-light: #ccfbf1;
+  
+  --color-background: #f8fafc;
+  --color-surface: #ffffff;
+
+  --color-text-primary: #0f172a;
+  --color-text-secondary: #64748b;
+
+  --color-border: #e2e8f0;
+
+  --color-success: #16a34a;
+  --color-danger: #dc2626;
+
+  --app-primary: #1d4ed8;
+  --app-primary-hover: #1e40af;
+  --app-primary-light: #eff6ff;
+  --app-primary-soft: #dbeafe;
+  --app-primary-text: #1d4ed8;
+}
+
+body{
+  margin: 0;
+  min-width: 320px;
+  background-color: #f8fafc;
+  color: #0f172a;
+}
+
+[data-theme="teal"] {
+  --app-primary: #0f766e;
+  --app-primary-hover: #115e59;
+  --app-primary-light: #f0fdfa;
+  --app-primary-soft: #ccfbf1;
+  --app-primary-text: #0f766e;
+}
+
+[data-theme="violet"] {
+  --app-primary: #7c3aed;
+  --app-primary-hover: #6d28d9;
+  --app-primary-light: #f5f3ff;
+  --app-primary-soft: #ede9fe;
+  --app-primary-text: #7c3aed;
+}
+
+.app-primary {
+  background-color: var(--app-primary);
+}
+
+.app-primary:hover {
+  background-color: var(--app-primary-hover);
+}
+
+.app-primary-text {
+  color: var(--app-primary-text);
+}
+
+.app-primary-light {
+  background-color: var(--app-primary-light);
+}
+
+.app-primary-soft {
+  background-color: var(--app-primary-soft);
+}
+
+.app-primary-border {
+  border-color: var(--app-primary);
+}
+
+.app-primary-focus:focus {
+  border-color: var(--app-primary);
+  --tw-ring-color: var(--app-primary-soft);
+}
+
+.app-primary-hover:hover {
+  background-color: var(--app-primary-light);
+  color: var(--app-primary-text);
+}
